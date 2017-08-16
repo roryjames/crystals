@@ -4,10 +4,10 @@ $(document).ready(function() {
 
     function findNum() {
         randomNum = Math.floor(Math.random() * 90 + 10);
-        ruby = Math.floor(Math.random() * 10);
-        topaz = Math.floor(Math.random() * 10);
-        citrine = Math.floor(Math.random() * 10);
-        emerald = Math.floor(Math.random() * 10);
+        ruby = Math.floor(Math.random() * 10) + 1;
+        topaz = Math.floor(Math.random() * 10) + 1;
+        citrine = Math.floor(Math.random() * 10) + 1;
+        emerald = Math.floor(Math.random() * 10) + 1;
         $('#number').text(randomNum);
     };
 
@@ -19,27 +19,27 @@ $(document).ready(function() {
 
     $('#ruby').on('click', function() {
         counter += ruby;
-
-        matchNum();
         $('#score').text(counter);
+        matchNum();
+
     });
     $('#topaz').on('click', function() {
         counter += topaz;
-
-        matchNum();
         $('#score').text(counter);
+        matchNum();
+
     });
     $('#citrine').on('click', function() {
         counter += citrine;
-
-        matchNum();
         $('#score').text(counter);
+        matchNum();
+
     });
     $('#emerald').on('click', function() {
         counter += emerald;
-
-        matchNum();
         $('#score').text(counter);
+        matchNum();
+
     });
 
     function matchNum() {

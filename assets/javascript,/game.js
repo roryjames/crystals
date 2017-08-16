@@ -26,6 +26,7 @@ $(document).ready(function() {
 
     });
     $('#topaz').on('click', function() {
+        $('#topaz').css('transition: background-color 1000ms step-end;');
         counter += topaz;
         $('#score').text(counter);
         matchNum();

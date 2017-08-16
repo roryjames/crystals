@@ -28,7 +28,7 @@ section.row {
     text-align: center;
     font-weight: bold;
     font-size: 38px;
-    padding: 25px;
+    padding: 10px;
 }
 
 @media (max-width:768px) {
@@ -38,8 +38,5 @@ section.row {
     }
     .crystals img {
         width: 125px;
-    }
-    .randomNumber {
-        padding: 10px;
     }
 }

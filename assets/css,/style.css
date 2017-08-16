@@ -2,6 +2,10 @@ div {
     border: 1px solid #222;
 }
 
+.container {
+    margin-top: 20px;
+}
+
 ul.crystals li {
     display: inline-block;
     border: 1px solid #222;
@@ -38,6 +42,16 @@ section.row {
 p.totalScore {
     text-align: center;
     font-weight: bold;
+    padding-top: 5px;
+}
+
+section.reset {
+    text-align: center;
+}
+
+section.reset button {
+    width: 50%;
+    margin: 20px;
 }
 
 @media (max-width:768px) {

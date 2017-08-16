@@ -8,7 +8,7 @@ $(document).ready(function() {
         topaz = Math.floor(Math.random() * 10);
         citrine = Math.floor(Math.random() * 10);
         emerald = Math.floor(Math.random() * 10);
-        console.log(ruby, topaz, citrine, emerald);
+        $('#number').text(randomNum);
     };
 
     var counter = 0;
@@ -16,8 +16,6 @@ $(document).ready(function() {
     var loss = 0;
 
     findNum();
-
-    $('#number').text(randomNum);
 
     $('#ruby').on('click', function() {
         counter += ruby;
@@ -62,5 +60,9 @@ $(document).ready(function() {
         counter = 0;
         findNum();
     }
+
+    $('#startOver').on('click', function() {
+        reset();
+    })
 
 });

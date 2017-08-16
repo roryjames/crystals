@@ -1,6 +1,9 @@
 $(document).ready(function() {
 
     var randomNum, ruby, sapphire, citrine, emerald;
+    var counter = 0;
+    var wins = 0;
+    var loss = 0;
 
     function findNum() {
         randomNum = Math.floor(Math.random() * 90 + 10);
@@ -8,13 +11,12 @@ $(document).ready(function() {
         topaz = Math.floor(Math.random() * 10) + 1;
         citrine = Math.floor(Math.random() * 10) + 1;
         emerald = Math.floor(Math.random() * 10) + 1;
+        $('#score').text('')
         $('#number').text(randomNum);
     };
 
-    var counter = 0;
-    var wins = 0;
-    var loss = 0;
-
+    $('#win').text(wins);
+    $('#loss').text(loss);
     findNum();
 
     $('#ruby').on('click', function() {
@@ -46,12 +48,12 @@ $(document).ready(function() {
         if (counter === randomNum) {
             wins += 1;
             $('#win').text(wins);
-            alert('You won!');
+            alert('You won! \nFinal Score: ' + counter);
             reset();
         } else if (counter > randomNum) {
-            loss = 0;
+            loss += 1;
             $('#loss').text(loss);
-            alert('You Lose!');
+            alert('You Lose! \nFinal Score: ' + counter);
             reset();
         }
     };

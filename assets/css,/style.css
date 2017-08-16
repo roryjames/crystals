@@ -1,9 +1,9 @@
-div {
-    border: 1px solid #222;
-}
-
 .container {
     margin-top: 20px;
+}
+
+header {
+    text-align: center;
 }
 
 ul.crystals li {
@@ -39,6 +39,11 @@ section.row {
     padding-top: 10px;
 }
 
+.winLoss p {
+    text-align: center;
+    font-weight: bold;
+}
+
 p.totalScore {
     text-align: center;
     font-weight: bold;
@@ -52,6 +57,11 @@ section.reset {
 section.reset button {
     width: 50%;
     margin: 20px;
+}
+
+section.row.crystals div {
+    bordeR: none;
+    margin: 10px;
 }
 
 @media (max-width:768px) {

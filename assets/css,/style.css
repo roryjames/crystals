@@ -10,3 +10,21 @@ ul.crystals li {
 section.row {
     padding: 20px;
 }
+
+ul.crystals li img {
+    width: 100px;
+}
+
+ul.crystals {
+    display: flex;
+    justify-content: space-between;
+}
+
+.numsWins div {
+    height: 75px;
+}
+
+.numsWins:first-child {
+    text-align: center;
+    padding: 25px;
+}

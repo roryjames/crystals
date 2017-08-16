@@ -29,29 +29,29 @@
             <p>The value of each crystal is hidden from you until you click on it.</p>
             <p>Each time when the game starts, the game will change the values of each crystal.</p>
         </section>
-        <section class="row">
+        <section class="row numsWins">
             <div class="col-xs-12 col-sm-6 col-lg-8" id="number"></div>
-            <div class="col-xs-12 col-sm-6 col-lg-4" id="winsLoss"></div>
+            <div class="col-xs-12 col-sm-6 col-lg-4" id="winsLoss">
+                <p>Wins:<span id="win"></span></p>
+                <p>Losses:<span id="loss"></span></p>
+            </div>
         </section>
         <section class="row">
             <ul class="crystals">
-                <li id="ruby"></li>
-                <li id="topaz"></li>
-                <li id="citrine"></li>
-                <li id="emerald"></li>
+                <li id="ruby"><img src="./assets/images/download.png"></li>
+                <li id="topaz"><img src="./assets/images/topaz.jpg"></li>
+                <li id="citrine"><img src="./assets/images/citrine.jpg"></li>
+                <li id="emerald"><img src="./assets/images/emerald.png"></li>
             </ul>
         </section>
         <section class="row">
             <div>
-                <p>Your total score is:</p>
-            </div>
-            <div>
-                <p id="score"></p>
+                <p>Your total score is: <span id="score"></span></p>
             </div>
         </section>
     </div>
 </body>
 
-<script type="javascript" src="./assets/javascript,/game.js">
+<script src="./assets/javascript,/game.js"></script>
 
 </html>

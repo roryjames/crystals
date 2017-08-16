@@ -19,25 +19,25 @@ $(document).ready(function() {
 
     $('#number').text(randomNum);
 
-    $('li#ruby').on('click', function() {
+    $('#ruby').on('click', function() {
         counter += ruby;
 
         matchNum();
         $('#score').text(counter);
     });
-    $('li#topaz').on('click', function() {
+    $('#topaz').on('click', function() {
         counter += topaz;
 
         matchNum();
         $('#score').text(counter);
     });
-    $('li#citrine').on('click', function() {
+    $('#citrine').on('click', function() {
         counter += citrine;
 
         matchNum();
         $('#score').text(counter);
     });
-    $('li#emerald').on('click', function() {
+    $('#emerald').on('click', function() {
         counter += emerald;
 
         matchNum();

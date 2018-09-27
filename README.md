@@ -11,3 +11,5 @@ You win the game by matching your total score to the random number, you lose the
 The value of each crystal is hidden from you until you click on it.
 
 Each time when the game starts, the game will change the values of each crystal.
+
+<a href="">https://rorytothemax.github.io/crystals</a>

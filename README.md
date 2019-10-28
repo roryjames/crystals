@@ -1,6 +1,6 @@
-# week-4-game
+# a game in jQuery
 
-Crystal Collector
+Crystals Collector
 
 You will be given a random number at the start of the game.
 
@@ -12,4 +12,4 @@ The value of each crystal is hidden from you until you click on it.
 
 Each time when the game starts, the game will change the values of each crystal.
 
-<a href="">https://rorytothemax.github.io/crystals</a>
+<a href="">https://roryjames.github.io/crystals</a>
